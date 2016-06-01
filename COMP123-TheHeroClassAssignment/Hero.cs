@@ -104,5 +104,29 @@ namespace COMP123_TheHeroClassAssignment
                 this._health = value;
             }
         }
+
+        // CONSTRUCTORS ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+        /**
+        * <summary>
+        * This is the default empty constructor method for the Hero class
+        * </summary>
+        * 
+        * @constructor Hero
+        */
+
+        public Hero()
+        {
+            this.Name = "Unknown Name";
+            _generateAbilities();
+        }
+
+        private void _generateAbilities()
+        {
+            Random numbers = new Random();
+            this._strength = numbers.Next(1, 100);
+            this._health = numbers.Next(1, 100);
+            this._speed = numbers.Next(1, 100); 
+        }
     }
 }
