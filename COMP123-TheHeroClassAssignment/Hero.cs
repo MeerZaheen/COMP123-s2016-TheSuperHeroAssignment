@@ -118,9 +118,34 @@ namespace COMP123_TheHeroClassAssignment
         public Hero()
         {
             this.Name = "Unknown Name";
+        }
+
+        /**
+        * <summary>
+        * This is a constructor that takes name as a parameter and passes it to the _name private instance variable.
+        * This constructor also calls the _generateAbilities method 
+        * </summary>
+        *
+        * @constructor Hero
+        * @param {string} name
+        */
+        public Hero(string name)
+        {
+            this._name = name;
             _generateAbilities();
         }
 
+        /**
+        * <summary>
+        * This is a private _generateAbilities method that randomly generates the ability numbers for the following fields
+        * from the private instance variables
+        * </summary>
+        *
+        * @method _generateAbilities
+        * @param {int} Strength
+        * @param {int} Health
+        * @param {int} Speed
+        */
         private void _generateAbilities()
         {
             Random numbers = new Random();
@@ -128,5 +153,9 @@ namespace COMP123_TheHeroClassAssignment
             this._health = numbers.Next(1, 100);
             this._speed = numbers.Next(1, 100); 
         }
+
+        // PUBLIC METHODS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
     }
 }
