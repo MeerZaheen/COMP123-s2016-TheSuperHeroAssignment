@@ -169,10 +169,10 @@ namespace COMP123_TheHeroClassAssignment
         */
         private void generateAbilities()
         {
-            Random numbers = new Random();
-            this._strength = numbers.Next(1, 101); // random number between 1 and 100
+            Random numbers this._strength = numbers.Next(1, 101); // random number between 1 and 100
             this._health = numbers.Next(1, 101);   // random number between 1 and 100
-            this._speed = numbers.Next(1, 101);    // random number between 1 and 100
+            this._speed = numbers.Next(1, 101);    // random number between 1 and 100= new Random();
+            
         }
 
         /**
