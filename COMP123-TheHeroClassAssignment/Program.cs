@@ -42,7 +42,7 @@ namespace COMP123_TheHeroClassAssignment
     {
         /**
         * <summary>
-        * This is the main method for our Hero class plus a do/while loop for the to play again if wanted
+        * This is the main method for our Hero class plus a do/while loop for the player to play again if wanted
         * </summary>
         *
         * @Method Main
