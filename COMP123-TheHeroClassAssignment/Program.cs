@@ -23,6 +23,8 @@ using System.Threading.Tasks;
 *       Date: May 31st 2016, 9:30pm
 * e) working on 1e
 *       Date: May 31st, 2016, 9:30pm
+* f) finished. added and tried to do unit test but confused with generalability method
+*       Date: June 2nd, 2016, 4:40pm
 * 
 */
 
