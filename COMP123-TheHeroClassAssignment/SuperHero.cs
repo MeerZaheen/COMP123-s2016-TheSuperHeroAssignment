@@ -61,5 +61,27 @@ namespace COMP123_TheHeroClassAssignment
         {
             _generateRandomPowers;
         }
+
+        // PRIVATE METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+        /**
+        * <summary>
+        * This is a private _generateRandomPowers method that randomly 
+        * generates three random superpowers from the following list of 6 powers
+        * </summary>
+        *
+        * @method _generateRandomPowers
+        * @param {int} SuperStrength
+        * @param {int} SuperSpeed
+        * @param {int} BodyArmour
+        * @param {int} Flight
+        * @param {int} FireGeneration
+        * @param {int} WeatherControl
+        */
+
+        private void _generateRandomPowers()
+        {
+            Random power = new Random();
+        }
     }
 }
