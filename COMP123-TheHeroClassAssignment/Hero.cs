@@ -8,22 +8,10 @@ using System.Threading.Tasks;
 * COMP123-The Hero Class Assignment
 * Author: Meer Zaheen Nazmul
 * Student ID: 300522487
-* Date Last Modified: June 2nd 2016
-* Program Description: Using MS Visual Studio, Build and Implement a Hero Class
-* GitHub Link: https://github.com/MeerZaheen/COMP123-TheHeroClassAssignment.git
-*
-* Revision History:
-* a) Initial commit to add default .gitIgnore and .gitAttribute files.
-*       Date: May 31st, 2016, 8:27pm
-* b) Initial Commit
-*       Date: May 31st, 2016
-* c) Part a complete
-*       Date: May 31st 2016, 8:40pm
-* d) Part 1b, c, d done
-*       Date: May 31st 2016, 9:30pm
-* e) working on 1e
-*       Date: May 31st, 2016, 9:30pm
-* 
+* Date Last Modified: June 5nd 2016
+* Program Description: Using MS Visual Studio, Build and Implement a Hero Class. 
+* Build and Implement a SuperHero class. The SuperHero class is a subclass for the Hero superclass from Assignment1
+* GitHub Link: 
 */
 namespace COMP123_TheHeroClassAssignment
 {
