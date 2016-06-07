@@ -82,6 +82,13 @@ namespace COMP123_TheHeroClassAssignment
         private void _generateRandomPowers()
         {
             Random power = new Random();
+            List<string> SuperPowers = new List<string>();
+            SuperPowers.Add("Super Strength");
+            SuperPowers.Add("Super Speed");
+            SuperPowers.Add("Body Armour");
+            SuperPowers.Add("Flight");
+            SuperPowers.Add("Fire Generation");
+            SuperPowers.Add("Weather Control");
         }
     }
 }
