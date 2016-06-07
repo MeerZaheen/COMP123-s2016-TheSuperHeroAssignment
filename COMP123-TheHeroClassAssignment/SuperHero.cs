@@ -89,6 +89,14 @@ namespace COMP123_TheHeroClassAssignment
             SuperPowers.Add("Flight");
             SuperPowers.Add("Fire Generation");
             SuperPowers.Add("Weather Control");
+
+            for (int i = 0; i < 3; i++)
+            {
+                int randomPower = power.Next(0, SuperPowers.Count); // random power from 1 to 6
+                _superPowers[i] = SuperPowers[randomPower]; // or SuperPowers.ElementAt(randomPower): Returns the element at a specified index in a sequence.
+                SuperPowers.RemoveAt(randomPower);          // square-bracket syntax more preferrable?
+                Console.WriteLine(_superPowers[i]);
+            }
         }
     }
 }
