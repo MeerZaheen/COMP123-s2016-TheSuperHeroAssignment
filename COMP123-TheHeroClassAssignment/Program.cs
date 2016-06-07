@@ -54,7 +54,7 @@ namespace COMP123_TheHeroClassAssignment
         {
             // Create a new instance for the Hero Class
             string playerReply = " ";
-                Hero Meer = new Hero("Meer");
+            Hero Meer = new Hero("Meer");
             do
             {
                 Console.WriteLine();

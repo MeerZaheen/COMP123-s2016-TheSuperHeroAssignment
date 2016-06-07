@@ -57,7 +57,7 @@ namespace COMP123_TheHeroClassAssignment
          */
 
         public SuperHero(string name)
-            :base(name)
+            : base(name)
         {
             _generateRandomPowers();
             ShowPowers();
