@@ -66,6 +66,9 @@ namespace COMP123_TheHeroClassAssignment
                 Console.WriteLine();
                 playerReply = Console.ReadLine();
             } while (playerReply == "yes");
+
+            SuperHero MeerZ = new SuperHero("MeerZ");
+            MeerZ.ShowPowers();
         }
     }
 }

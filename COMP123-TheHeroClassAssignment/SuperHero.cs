@@ -98,5 +98,20 @@ namespace COMP123_TheHeroClassAssignment
                 Console.WriteLine(_superPowers[i]);
             }
         }
+
+        // PUBLIC METHODS ++++++++++++++++++++++++++++++++++++++++
+
+        /**
+        * <summary>
+        * This method will display the SuperHero’s super powers	to the console
+        * </summary>
+        *
+        * @return {void}
+        * @field {string} superPower
+        */
+        public void ShowPowers()
+        {
+            Console.WriteLine(_superPowers);
+        }
     }
 }
