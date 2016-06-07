@@ -94,7 +94,7 @@ namespace COMP123_TheHeroClassAssignment
             {
                 int randomPower = power.Next(0, SuperPowers.Count); // random power from 1 to 6
                 _superPowers[i] = SuperPowers[randomPower]; // or SuperPowers.ElementAt(randomPower): Returns the element at a specified index in a sequence.
-                SuperPowers.RemoveAt(randomPower);          // square-bracket syntax more preferrable?
+                SuperPowers.RemoveAt(randomPower); // RemoveAt prevents duplication          // square-bracket syntax more preferrable?
                 Console.WriteLine(_superPowers[i]);
             }
         }
