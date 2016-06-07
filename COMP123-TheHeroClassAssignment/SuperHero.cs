@@ -59,7 +59,7 @@ namespace COMP123_TheHeroClassAssignment
         public SuperHero(string name)
             :base(name)
         {
-            _generateRandomPowers;
+            _generateRandomPowers();
         }
 
         // PRIVATE METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
