@@ -8,24 +8,40 @@ using System.Threading.Tasks;
 * COMP123-The Hero Class Assignment
 * Author: Meer Zaheen Nazmul
 * Student ID: 300522487
-* Date Last Modified: June 5nd 2016
+* Date Last Modified: June 7nd 2016
 * Program Description: Using MS Visual Studio, Build and Implement a Hero Class. 
 * Build and Implement a SuperHero class. The SuperHero class is a subclass for the Hero superclass from Assignment1
-* GitHub Link: 
+* GitHub Link: https://github.com/MeerZaheen/COMP123-s2016-TheSuperHeroAssignment.git
 *
 * Revision History:
 * a) Initial commit to add default .gitIgnore and .gitAttribute files.
-*       Date: May 31st, 2016, 8:27pm
+*       Date: May 31st, 2016
 * b) Initial Commit
 *       Date: May 31st, 2016
 * c) Part a complete
-*       Date: May 31st 2016, 8:40pm
+*       Date: May 31st 2016
 * d) Part 1b, c, d done
-*       Date: May 31st 2016, 9:30pm
+*       Date: May 31st 2016
 * e) working on 1e
-*       Date: May 31st, 2016, 9:30pm
+*       Date: May 31st, 2016
 * f) finished. added and tried to do unit test but confused with generalability method
-*       Date: June 2nd, 2016, 4:40pm
+*       Date: June 2nd, 2016
+* g) Added revision comment
+*       Date: June 2nd, 2016
+* h) Initial Commit and added SuperHero Class
+*       Date: June 5th, 2016
+* i) Added private instance variable: _superPowers
+*       Date: June 5th, 2016
+* j) added a List of string SuperPowers in private method : _generateRandomPowers
+*       Date: June 6th, 2016
+* k) Implemented a forloop for _generateRandomPowers
+*       Date: June 6th, 2016
+* j) Created a public method ShowPowers
+*       Date: June 6th, 2016
+* k) Added new superhero in program driver class
+*       Date: June 7th, 2016
+* k) Created and edited ShowPower method
+*       Date: June 7th, 2016
 * 
 */
 

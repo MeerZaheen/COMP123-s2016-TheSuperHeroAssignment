@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 * Date Last Modified: June 5nd 2016
 * Program Description: Using MS Visual Studio, Build and Implement a Hero Class. 
 * Build and Implement a SuperHero class. The SuperHero class is a subclass for the Hero superclass from Assignment1
-* GitHub Link: 
+* GitHub Link: https://github.com/MeerZaheen/COMP123-s2016-TheSuperHeroAssignment.git
 */
 namespace COMP123_TheHeroClassAssignment
 {
