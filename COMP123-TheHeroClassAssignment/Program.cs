@@ -60,10 +60,12 @@ namespace COMP123_TheHeroClassAssignment
                 MeerZ.Show();
                 MeerZ.ShowPowers();
                 Console.WriteLine();
+                Console.BackgroundColor = ConsoleColor.DarkGray;
                 MeerZ.Fight();
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("*         Type 'yes' to play again!          *");
                 Console.WriteLine();
-                Console.WriteLine("Type 'yes' to play again!");
-                Console.WriteLine();
+                Console.BackgroundColor = ConsoleColor.Black;
                 playerReply = Console.ReadLine();
             } while (playerReply == "yes");
             Console.WriteLine();

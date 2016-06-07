@@ -215,14 +215,15 @@ namespace COMP123_TheHeroClassAssignment
         public void Fight()
         {
             Console.WriteLine("************ Attempting to attack ************");
-            Console.WriteLine();
                 if (_hitAttempt() == true)
                 {
-                    Console.WriteLine("successful hit!! {0} damage was dealth", _hitDamage());
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine("*   successful hit!! {0} damage was dealth   *", _hitDamage());
                 }
                 else
                 {
-                    Console.WriteLine("Sorry, you missed. Try again");
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine("*       Sorry, you missed. Try again         *");
                 }
         }
 
@@ -236,6 +237,7 @@ namespace COMP123_TheHeroClassAssignment
          */
         public void Show()
         {
+            Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("---------------------------------");
             Console.WriteLine("|||||- {0}'s Attributes- ||||||", _name);

@@ -113,15 +113,15 @@ namespace COMP123_TheHeroClassAssignment
         public void ShowPowers()
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine("-------------------------------------------");
-            Console.WriteLine("This round, {0} starts with these powers!", _name);
-            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("-----------------------------------------------");
+            Console.WriteLine("* This round, {0} starts with these powers! *", _name);
+            Console.WriteLine("-----------------------------------------------");
             for (int i = 0; i < this.SuperPowers.Length; i++)
             {
                 Console.BackgroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("* {0} ", _superPowers[i]);
             }
-            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("-----------------------------------------------");
         }
     }
 }
