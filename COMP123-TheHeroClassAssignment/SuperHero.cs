@@ -60,6 +60,7 @@ namespace COMP123_TheHeroClassAssignment
             :base(name)
         {
             _generateRandomPowers();
+            ShowPowers();
         }
 
         // PRIVATE METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
