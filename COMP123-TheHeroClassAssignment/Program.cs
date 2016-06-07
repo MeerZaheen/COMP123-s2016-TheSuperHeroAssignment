@@ -54,21 +54,19 @@ namespace COMP123_TheHeroClassAssignment
         {
             // Create a new instance for the Hero Class
             string playerReply = " ";
-            Hero Meer = new Hero("Meer");
             do
             {
+                SuperHero MeerZ = new SuperHero("MeerZ");
+                MeerZ.Show();
+                MeerZ.ShowPowers();
                 Console.WriteLine();
-                Meer.Show();
-                Console.WriteLine();
-                Meer.Fight();
+                MeerZ.Fight();
                 Console.WriteLine();
                 Console.WriteLine("Type 'yes' to play again!");
                 Console.WriteLine();
                 playerReply = Console.ReadLine();
             } while (playerReply == "yes");
-
-            SuperHero MeerZ = new SuperHero("MeerZ");
-            MeerZ.ShowPowers();
+            Console.WriteLine();
         }
     }
 }

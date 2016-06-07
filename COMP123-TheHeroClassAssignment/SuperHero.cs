@@ -19,7 +19,8 @@ namespace COMP123_TheHeroClassAssignment
     {
         // PRIVATE INSTANCE VARIABLES +++++++++++++++++++++++++++++++++++++++++++++++++++
 
-        private string[] _superPowers;
+        private string[] _superPowers = new string[3];
+        private string _name;
 
         // PUBLIC PROPERTIES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -60,7 +61,7 @@ namespace COMP123_TheHeroClassAssignment
             : base(name)
         {
             _generateRandomPowers();
-            ShowPowers();
+            this._name = name;
         }
 
         // PRIVATE METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -82,7 +83,6 @@ namespace COMP123_TheHeroClassAssignment
 
         private void _generateRandomPowers()
         {
-            Random power = new Random();
             List<string> SuperPowers = new List<string>();
             SuperPowers.Add("Super Strength");
             SuperPowers.Add("Super Speed");
@@ -90,13 +90,13 @@ namespace COMP123_TheHeroClassAssignment
             SuperPowers.Add("Flight");
             SuperPowers.Add("Fire Generation");
             SuperPowers.Add("Weather Control");
+            Random power = new Random();
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < this.SuperPowers.Length; i++)
             {
                 int randomPower = power.Next(0, SuperPowers.Count); // random power from 1 to 6
                 _superPowers[i] = SuperPowers[randomPower]; // or SuperPowers.ElementAt(randomPower): Returns the element at a specified index in a sequence.
                 SuperPowers.RemoveAt(randomPower); // RemoveAt prevents duplication          // square-bracket syntax more preferrable?
-                Console.WriteLine(_superPowers[i]);
             }
         }
 
@@ -112,7 +112,16 @@ namespace COMP123_TheHeroClassAssignment
         */
         public void ShowPowers()
         {
-            Console.WriteLine(_superPowers);
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("This round, {0} starts with these powers!", _name);
+            Console.WriteLine("-------------------------------------------");
+            for (int i = 0; i < this.SuperPowers.Length; i++)
+            {
+                Console.BackgroundColor = ConsoleColor.DarkBlue;
+                Console.WriteLine("* {0} ", _superPowers[i]);
+            }
+            Console.WriteLine("-------------------------------------------");
         }
     }
 }

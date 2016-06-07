@@ -214,7 +214,7 @@ namespace COMP123_TheHeroClassAssignment
         */
         public void Fight()
         {
-            Console.WriteLine("||||Attempting to attack.....||||");
+            Console.WriteLine("************ Attempting to attack ************");
             Console.WriteLine();
                 if (_hitAttempt() == true)
                 {
@@ -238,13 +238,13 @@ namespace COMP123_TheHeroClassAssignment
         {
             Console.BackgroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("---------------------------------");
-            Console.WriteLine("||||||- Hero's Attributes- ||||||");
+            Console.WriteLine("|||||- {0}'s Attributes- ||||||", _name);
             Console.WriteLine("---------------------------------");
             Console.WriteLine("||Properties||          ||Value||");
             Console.WriteLine("--------------          ---------");
-            Console.WriteLine("||Strength        |       ||{0}||", _strength);
-            Console.WriteLine("||Speed           |       ||{0}||", _speed);
-            Console.WriteLine("||Health          |       ||{0}||", _health);
+            Console.WriteLine("||Strength        |       ||{0}|||", _strength);
+            Console.WriteLine("||Speed           |       ||{0}|||", _speed);
+            Console.WriteLine("||Health          |       ||{0}|||", _health);
             Console.WriteLine("---------------------------------");
             Console.WriteLine();
         }
