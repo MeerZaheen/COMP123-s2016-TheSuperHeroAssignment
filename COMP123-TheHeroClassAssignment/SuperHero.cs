@@ -23,6 +23,8 @@ namespace COMP123_TheHeroClassAssignment
     *
     * @class SuperHero
     * @extends Hero
+    * @field _superPowers
+    * @field _name
     */
 
     class SuperHero : Hero
@@ -93,7 +95,7 @@ namespace COMP123_TheHeroClassAssignment
 
         private void _generateRandomPowers()
         {
-            List<string> SuperPowers = new List<string>();
+            List<string> SuperPowers = new List<string>(); // creates a new list
             SuperPowers.Add("Super Strength");
             SuperPowers.Add("Super Speed");
             SuperPowers.Add("Body Armour");
