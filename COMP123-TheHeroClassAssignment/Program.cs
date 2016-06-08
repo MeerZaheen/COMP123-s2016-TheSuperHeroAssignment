@@ -49,7 +49,7 @@ namespace COMP123_TheHeroClassAssignment
 {
     /**
     * <summary>
-    * This is the "DRIVER" for the Hero program
+    * This is the "DRIVER" for the SuperHero program
     * </summary>
     *
     * @class Program
@@ -59,7 +59,7 @@ namespace COMP123_TheHeroClassAssignment
     {
         /**
         * <summary>
-        * This is the main method for our Hero class plus a do/while loop for the player to play again if wanted
+        * This is the main method for our SuperHero class plus a do/while loop for the player to play again if wanted
         * </summary>
         *
         * @Method Main
@@ -68,7 +68,7 @@ namespace COMP123_TheHeroClassAssignment
 
         public static void Main(string[] args)
         {
-            // Create a new instance for the Hero Class
+            // Create a new instance for the SuperHero Class
             string playerReply = " ";
             do
             {
