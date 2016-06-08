@@ -40,8 +40,10 @@ using System.Threading.Tasks;
 *       Date: June 6th, 2016
 * k) Added new superhero in program driver class
 *       Date: June 7th, 2016
-* k) Created and edited ShowPower method
+* l) Created and edited ShowPower method
 *       Date: June 7th, 2016
+* m) Added a loop for different rounds
+*       Date: June 8th, 2016
 * 
 */
 
@@ -70,9 +72,14 @@ namespace COMP123_TheHeroClassAssignment
         {
             // Create a new instance for the SuperHero Class
             string playerReply = " ";
+            int round = 0;
             do
             {
                 SuperHero MeerZ = new SuperHero("MeerZ");
+                Console.BackgroundColor = ConsoleColor.White;
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.WriteLine("---------------------------------");
+                Console.WriteLine("*     Your are in round: {0}      *",++round);
                 MeerZ.Show();
                 MeerZ.ShowPowers();
                 Console.WriteLine();
